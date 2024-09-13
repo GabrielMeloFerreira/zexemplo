@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "NTR", sans-serif;
+    background-color: #0a192f;
+    color: #ccd6f6;
+}
+
+
+
+
+
+
+

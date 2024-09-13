@@ -1,0 +1,26 @@
+.intro{
+    font-size: 50px;
+    text-align: center;
+    min-height: 50vh;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 100px;
+    line-height: 1.2;
+}
+
+.intro-desc {
+    font-size: 20px;
+    margin: 0  auto;
+    margin-top: 0;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+#intro-name {
+    color: #64ffda;
+}
+
+#blinkingPoint {
+    color: #64ffda;
+    animation: fade-in 500ms infinite alternate;
+}

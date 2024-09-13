@@ -1,0 +1,16 @@
+nav {
+    margin: 15px 170px;
+  }
+
+  nav a{
+    color: #a8b2d1;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 10px;
+    text-decoration: none;
+  }
+
+  nav a.nav-nome{
+  color: #a8b2d1;
+  font-size: 18px;
+  }
