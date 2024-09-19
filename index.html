@@ -9,11 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=NTR&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     <link href="styles/index.css" rel="stylesheet"/>
     <link href="styles/navbar.css" rel="stylesheet"/>
     <link href="styles/intro.css" rel="stylesheet"/>
     <link href="styles/about.css" rel="stylesheet"/>
+    <link href="styles/fractal.css" rel="stylesheet"/>
 
     <link rel="icon" href="Imagens/favicon.ico"/>
 
@@ -29,21 +32,25 @@
       <a href="">Projetos</a>
     </nav>
 
-    
+    <canvas id="fractal-tree"></canvas>
+
     <div class="intro">
       Hello! i am 
       <span id="intro-name">Gabriel</span><span id="blinkingPoint">.</span>
       <div class="intro-desc">i'm a fullstack developer from São paulo, Brazil, i've always enjoyed studying programming and software development.</div>
+
+      <div class="intro-contact">
+        <a href="mailto:gabskael@gmail.com"><i class="fa fa-envelope" style="padding-right: 10px;"></i>E-mail Me</a>
+      </div>
+
     </div>
 
     <div class="about">
       About
       <div class="about-desc">I'm currently working as a <b>Java developer</b> at <a class="about-unilink" href="https://www.construtorapatriani.com.br/">Construtora Patriani</a>
       and studying systems analysis and development at Cruzeiro do Sul University
-      <img class="img-me" src="Imagens/Eu.jpeg" alt="Gabs">
-    </div>
+      </div>
       <div class="about-lang">Some of the languages I've worked with on projects:
-
         <ul>
           <li>Java</li>
           <li>JavaScript</li>
@@ -51,9 +58,9 @@
           <li>C#</li>
         </ul>
       </div>
-      
+      <img class="img-me" src="Imagens/Eu.jpeg" alt="Gabs">
     </div>
 
-
+    <script src="scripts/fractal.js"></script>
   </body>
 </html>

@@ -16,6 +16,25 @@
     max-width: 500px;
 }
 
+.intro-contact{
+    margin-top: 30px;
+}
+
+.intro-contact a:hover{
+    background-color: #233554;
+}
+
+.intro-contact a{
+    color: #64ffda;
+    font-size: 20px;
+    text-decoration:solid;
+    border: 2px solid #64ffda;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    line-height: 4.5;
+    text-indent: 2px;
+}
+
 #intro-name {
     color: #64ffda;
 }

@@ -1,20 +1,31 @@
 .about {
     font-size: 50px;
-    text-align: justify;
     min-height: 50vh;
-    margin: 0 auto;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .about-desc {
     font-size: 20px;
     padding-bottom: 10px;
-    display: flex;
+    text-align: justify;
+    max-width: 600px;
 }
 
 .img-me{
-    border-radius: 20%;
-    width: 200px;
+    border-radius: 10%;
+    float: right;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    margin-right: 40px;
+    position: relative;
+    top: -210px;
+}
+
+.about-unilink{
+    color:aqua;
+    text-decoration: none;
 }
 
 .about-lang {
