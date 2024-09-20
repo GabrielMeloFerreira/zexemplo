@@ -1,0 +1,45 @@
+.tab{
+    background-color: #0a192f;
+    width: 900px;
+    height: 360px;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 30px;
+
+}
+
+.tablinks{
+    background-color: #0a192f;
+    color: #7B81A7;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: #0a192f;
+    font-size: 18px;
+    display: block;
+    padding: 30px 5px 5px 5px;
+    font-weight: bold;
+}
+
+.tablinks:hover{
+    color: #9DA2C2;
+}
+
+.experiences{
+    font-size: 50px;
+    min-height: 50vh;
+    max-width: 1000px;
+    margin: 150px auto;
+}
+
+.title-job{
+    font-size: 40px;
+    font-weight: bold;
+    color:aqua;
+    align-items: flex-start;
+}
+
+.company-job1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f1f1f1;  
+
+}
